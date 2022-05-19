@@ -18,7 +18,7 @@
     "vue-template-compiler": "^2.6.12"
   },
   "name": "@rasimoner/storage-ext",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Google Storage extension",
   "main": "webpack.mix.js",
   "dependencies": {
@@ -28,6 +28,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rasimoner/recaptcha.git"
+    "url": "git+https://github.com/rasimoner/storage-ext.git",
+    "bugs": {
+      "url": "https://github.com/rasimoner/storage-ext/issues"
+    },
+    "homepage": "https://github.com/rasimoner/storage-ext#readme"
   }
 }
