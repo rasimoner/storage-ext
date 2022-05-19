@@ -18,7 +18,7 @@
     "vue-template-compiler": "^2.6.12"
   },
   "name": "@rasimoner/storage-ext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Storage extension",
   "main": "webpack.mix.js",
   "dependencies": {
