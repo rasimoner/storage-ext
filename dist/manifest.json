@@ -1,0 +1,27 @@
+{
+  "name": "Storage Ext",
+  "version": "1.0.0",
+  "description": "Storage Management At Debug Mode",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/",
+    "https://*/"
+  ],
+  "icons": {
+    "16": "images/sample-icon-16.png",
+    "48": "images/sample-icon-48.png",
+    "128": "images/sample-icon-128.png"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/sample-icon-48-off.png"
+  },
+  "manifest_version": 2
+}
