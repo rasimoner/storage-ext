@@ -29,14 +29,33 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
       active: true,
       list: "example.com",
       icons: {
-        active: 'images/sample-icon-48.png',
-        inactive: 'images/sample-icon-48-off.png'
+        active: "images/sample-icon-48.png",
+        inactive: "images/sample-icon-48-off.png"
       }
     };
   },
@@ -55,7 +74,7 @@ __webpack_require__.r(__webpack_exports__);
         toggleSitesActive: active
       }, function () {});
       chrome.browserAction.setIcon({
-        path: this.icons[active ? 'active' : 'inactive']
+        path: this.icons[active ? "active" : "inactive"]
       });
     },
     saveList: function saveList() {
@@ -170,7 +189,7 @@ var render = function () {
             },
           },
         },
-        [_vm._v("Off\n    ")]
+        [_vm._v("\n      Off\n    ")]
       ),
       _vm._v(" "),
       _c(
@@ -185,7 +204,7 @@ var render = function () {
             },
           },
         },
-        [_vm._v("On")]
+        [_vm._v("\n      On\n    ")]
       ),
     ]),
     _vm._v(" "),
@@ -12424,7 +12443,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var app = new vue__WEBPACK_IMPORTED_MODULE_1__["default"]({
-  el: '#app',
+  el: "#app",
   render: function render(createElement) {
     return createElement(_components_Popup_vue__WEBPACK_IMPORTED_MODULE_0__["default"]);
   }
